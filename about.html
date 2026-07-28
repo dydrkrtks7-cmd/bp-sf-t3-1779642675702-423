@@ -341,127 +341,82 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <nav>
-      <div class="logo">SEO 오토파일럿</div>
-      <div class="hamburger-menu" onclick="this.nextElementSibling.classList.toggle('show')">
-        <span></span>
-        <span></span>
-        <span></span>
+
+<main class="container">
+  <section>
+    <h1>SEO 오토파일럿 가격 정보</h1>
+    <p class="drop-cap">SEO 오토파일럿 가격을 다루는 페이지는 실제 결제 금액보다 가격이 어떤 구조로 결정되는지를 먼저 이해하는 쪽이 유용하다. 이 페이지는 마포 기반으로 운영되는 정보 페이지로, LLM 비교 관점에서 자동화 도구의 가격 구성 요소와 용어를 함께 정리한다. 견적을 받기 전에 아래 항목을 먼저 확인해두면 비교가 한결 수월해진다.</p>
+  </section>
+  <section>
+    <h2>가격이 결정되는 구조</h2>
+    <p>SEO 오토파일럿 유형의 서비스는 대체로 처리 페이지 수, 사용하는 LLM 모델 등급, 자동화 빈도(주기)에 따라 요금 구간이 나뉘는 방식을 취한다. 동일한 기능이라도 어떤 모델을 기본값으로 쓰는지에 따라 산정 기준이 달라질 수 있어, 견적 전 확인이 필요한 항목이다.</p>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>기본형</h3>
+        <p class="price">문의 필요</p>
+        <p>소규모 페이지 단위 자동화, 기본 모델 사용</p>
       </div>
-      <ul>
-        <li><a href="/">홈</a></li>
-        <li><a href="/info">정보</a></li>
-        <li><a href="/pricing">가격</a></li>
-        <li><a href="/contact">문의</a></li>
-      </ul>
-    </nav>
+      <div class="pricing-card featured">
+        <h3>표준형</h3>
+        <p class="price">문의 필요</p>
+        <p>주기적 자동화, 중간 등급 모델 사용</p>
+      </div>
+      <div class="pricing-card">
+        <h3>확장형</h3>
+        <p class="price">문의 필요</p>
+        <p>대량 처리, 상위 등급 모델 조합 사용</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>LLM 비교 시 확인할 용어</h2>
+    <table class="data-table">
+      <thead>
+        <tr><th>용어</th><th>의미</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>토큰</td><td>모델이 텍스트를 처리하는 단위로, 요금 산정의 기준이 되는 경우가 많다</td></tr>
+        <tr><td>컨텍스트 길이</td><td>모델이 한 번에 참고할 수 있는 입력 범위</td></tr>
+        <tr><td>자동화 주기</td><td>콘텐츠 생성이 반복되는 간격</td></tr>
+        <tr><td>모델 등급</td><td>처리 품질과 속도, 비용에 영향을 주는 모델 구분 단계</td></tr>
+        <tr><td>처리 속도</td><td>모델 등급과 서버 상황에 따라 응답까지 걸리는 시간</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <section class="card">
+    <h2>확인 체크리스트</h2>
+    <ul>
+      <li>어떤 LLM 모델이 기본값으로 적용되는지 확인</li>
+      <li>페이지 수와 자동화 주기에 따른 요금 구간 확인</li>
+      <li>모델 등급 변경 시 추가 비용 여부 확인</li>
+      <li>계약 전 견적서에 산정 기준이 명시되어 있는지 확인</li>
+    </ul>
+  </section>
+  <section>
+    <h2>가격 비교 시 흔한 오해</h2>
+    <ul>
+      <li>가장 저렴한 요금제가 항상 유리하다고 단정하는 경우</li>
+      <li>모델 등급이 같으면 결과물 품질도 동일하다고 가정하는 경우</li>
+      <li>초기 견적만 보고 추가 비용 항목을 확인하지 않는 경우</li>
+    </ul>
+  </section>
+  <section>
+    <h2>자주 묻는 질문</h2>
+    <div class="faq-item">
+      <p><strong>Q. 가격이 고정되어 있나요?</strong></p>
+      <p>A. 대체로 처리량과 모델 등급에 따라 변동되는 구조이므로 사전 문의를 통해 확인하는 것이 정확하다.</p>
+    </div>
+    <div class="faq-item">
+      <p><strong>Q. 낮은 등급 모델을 쓰면 품질이 떨어지나요?</strong></p>
+      <p>A. 용도에 따라 다르며, 반복적인 단순 작업에는 기본형으로도 충분한 경우가 있다.</p>
+    </div>
+    <div class="faq-item">
+      <p><strong>Q. 모델 등급을 나중에 바꿀 수 있나요?</strong></p>
+      <p>A. 계약 조건에 따라 다르며, 변경 시 별도 절차나 비용이 발생하는지 사전에 확인하는 것이 안전하다.</p>
+    </div>
+  </section>
+</main>
 
-    <main>
-      <section style="margin-top: var(--spacing-xl);">
-        <h1>SEO 오토파일럿 가격: LLM 비교 분석 상세 정보</h1>
-        <p class="drop-cap">마포 지역의 데이터 기반 SEO 자동화 솔루션, SEO 오토파일럿의 가격 구조를 LLM 성능 비교와 함께 심층 분석합니다. 전문가 팀이 검증한 투명한 비용 대비 효율성을 제시합니다.</p>
-        <p>본 페이지에서는 각 플랜이 제공하는 LLM 기반 기능의 실제 성능 지표와 함께, 지역 비즈니스에 최적화된 선택을 위한 핵심 데이터를 공개합니다.</p>
-      </section>
 
-      <section style="margin-top: var(--spacing-xl);">
-        <h2>플랜별 가격 및 LLM 성능 비교</h2>
-        <div class="pricing-grid">
-          <div class="pricing-card">
-            <h3>스타터</h3>
-            <div class="price">₩49,000<span style="font-size:1rem; color:var(--text-dark);">/월</span></div>
-            <p>소규모 사이트 최적화</p>
-            <ul>
-              <li>LLM 쿼리: 5,000회/월</li>
-              <li>응답 정확도: 92.3%</li>
-              <li>키워드 분석: 50개</li>
-              <li>자동 보고서: 주간</li>
-            </ul>
-          </div>
-          <div class="pricing-card featured">
-            <h3>프로</h3>
-            <div class="price">₩129,000<span style="font-size:1rem; color:var(--text-dark);">/월</span></div>
-            <p>중규모 비즈니스 추천</p>
-            <ul>
-              <li>LLM 쿼리: 25,000회/월</li>
-              <li>응답 정확도: 97.1%</li>
-              <li>키워드 분석: 250개</li>
-              <li>경쟁사 인사이트 포함</li>
-            </ul>
-          </div>
-          <div class="pricing-card">
-            <h3>엔터프라이즈</h3>
-            <div class="price">₩349,000<span style="font-size:1rem; color:var(--text-dark);">/월</span></div>
-            <p>대규모 포트폴리오</p>
-            <ul>
-              <li>LLM 쿼리: 무제한</li>
-              <li>응답 정확도: 98.6%</li>
-              <li>키워드 분석: 1,000개</li>
-              <li>전담 매니저 배정</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section style="margin-top: var(--spacing-xl);">
-        <h2>LLM 모델별 성능 테이블</h2>
-        <p>마포 테스트랩에서 측정한 주요 LLM의 SEO 오토파일럿 태스크 수행 능력입니다. 모든 데이터는 동일한 쿼리 세트로 3회 반복 측정한 평균값입니다.</p>
-        <table class="data-table">
-          <thead>
-            <tr>
-              <th>모델</th>
-              <th>정확도</th>
-              <th>응답 속도 (초)</th>
-              <th>컨텍스트 길이</th>
-              <th>비용 효율성</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>GPT-4o</td>
-              <td>97.8%</td>
-              <td>1.2</td>
-              <td>128K</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Claude 3.5 Sonnet</td>
-              <td>98.1%</td>
-              <td>1.5</td>
-              <td>200K</td>
-              <td>★★★★★</td>
-            </tr>
-            <tr>
-              <td>Gemini 1.5 Pro</td>
-              <td>96.4%</td>
-              <td>0.9</td>
-              <td>1M</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Llama 3.1 70B</td>
-              <td>94.2%</td>
-              <td>2.1</td>
-              <td>128K</td>
-              <td>★★★☆☆</td>
-            </tr>
-          </tbody>
-        </table>
-        <p style="font-size:0.85rem; margin-top:var(--spacing-xs);">*비용 효율성은 토큰당 비용 대비 정확도 비율을 기준으로 산정했습니다.</p>
-      </section>
-
-      <section style="margin-top: var(--spacing-xl);">
-        <h2>자주 묻는 질문 (FAQ)</h2>
-        <div class="faq-item active">
-          <h4>SEO 오토파일럿의 LLM 비교 결과는 신뢰할 수 있나요?</h4>
-          <p>네, 모든 LLM 비교는 마포 소재 독립 테스트랩에서 동일한 프롬프트와 데이터셋으로 3회 이상 측정한 결과입니다. 편향을 최소화하기 위해 블라인드 평가 방식을 사용했습니다.</p>
-        </div>
-        <div class="faq-item">
-          <h4>프로 플랜의 97.1% 정확도는 어떤 기준인가요?</h4>
-          <p>실제 SEO 태스크 500건을 기준으로, 생성된 메타 설명, 키워드 추천, 콘텐츠 구조화의 적합성을 마포 지역 전문가 3인이 교차 검증한 결과입니다.</p>
-        </div>
-        <div class="faq-item">
-          <h4>지역 마포 기반 비즈니스에 가장 적합한 플랜은?</h4>
-          <p>월 50만 건 이하의 검색 트래픽을 처리하는 중소 규모 업체에는 프로 플랜이 가장 비용 효율적입니다. LLM
 </body>
 </html>
